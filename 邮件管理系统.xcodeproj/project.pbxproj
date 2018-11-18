@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		836E1BEE2171D26700B3C570 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E1BED2171D26700B3C570 /* main.cpp */; };
+		836E1BF62171DFAD00B3C570 /* Massage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836E1BF52171DFAD00B3C570 /* Massage.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		836E1BEA2171D26700B3C570 /* 邮件管理系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "邮件管理系统"; sourceTree = BUILT_PRODUCTS_DIR; };
 		836E1BED2171D26700B3C570 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		836E1BF42171D29B00B3C570 /* Massage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Massage.h; sourceTree = "<group>"; };
+		836E1BF52171DFAD00B3C570 /* Massage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Massage.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				836E1BED2171D26700B3C570 /* main.cpp */,
+				836E1BF42171D29B00B3C570 /* Massage.h */,
+				836E1BF52171DFAD00B3C570 /* Massage.cpp */,
 			);
 			path = "邮件管理系统";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				836E1BEE2171D26700B3C570 /* main.cpp in Sources */,
+				836E1BF62171DFAD00B3C570 /* Massage.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

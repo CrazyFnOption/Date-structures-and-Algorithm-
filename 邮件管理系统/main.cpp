@@ -6,10 +6,16 @@
 //  Copyright © 2018 王舒啸. All rights reserved.
 //
 
-#include <iostream>
+#include"Massage.h"
+#include<iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+int main()
+{
+    Massage my ("this is my first log");
+    
+    
+    
     return 0;
 }
